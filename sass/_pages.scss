@@ -1,0 +1,29 @@
+#new-page {
+  .large-textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.page {
+  $small-avatar-size: $line-height * 2;
+  $small-avatar-padding-right: $line-height / 2;
+  $postscript-margin-left: -1 * ($small-avatar-size + $small-avatar-padding-right + $box-space);
+  
+  #publish-date {
+    float: right;
+    font-size: $large;
+    padding-top: 7px;
+  }
+  .small-avatar {
+    width: $small-avatar-size;
+    height: $small-avatar-size;
+    float: left;
+    padding-right: $small-avatar-padding-right;
+  }
+  #postscript {
+    margin-left: $postscript-margin-left;
+  }
+}
+

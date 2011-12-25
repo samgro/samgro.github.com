@@ -1,0 +1,147 @@
+/* Layout */
+.underlined-link {
+  a,
+  a:visited {
+    border-bottom: 1px dotted $accent;
+  }
+  a:hover,
+  a:focus {
+    border-bottom: 2px solid $accent;
+  }
+}
+
+body, textarea {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size: $medium;
+  line-height: $line-height;
+}
+
+body {
+  background: $background;
+  color: $text;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  color: $header-text;
+  font-weight: $header-font-weight;
+}
+
+h1 {
+  font-size: $x-large;
+  line-height: $header-line-height;
+  margin-bottom: $line-height;
+
+	a, a:visited {
+		color: $header-text;
+	}
+	
+	a:hover, a:focus {
+	  color: $link-color;
+	}
+}
+
+h2 {
+  $top-margin: 9px;
+  font-size: $large;
+  padding: $top-margin 0 $line-height - $top-margin 0;
+}
+
+h3 {
+  margin-bottom: $line-height;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: $link-color;
+	font-weight: $link-font-weight;
+}
+
+article {
+  p, li {
+    @extend .underlined-link;
+  }
+}
+
+#header {
+	background: $dark;
+	padding: $line-height/2 0;
+	
+	.row {
+		position: relative;
+		overflow: none;
+	}
+	header {
+		font-size: $x-large;
+		line-height: 40px;
+	}
+	.subtitle {
+	  font-style: italic;
+	  
+	  @extend .underlined-link;
+	}
+	a,
+  a:visited {
+  	color: $header-text;
+  }
+  a:hover,
+  a:focus {
+    color: $link-color;
+  }
+}
+
+#profile {
+	position: relative;
+	height: 0px;
+	width: $page-width;
+	margin: 0px auto;
+	
+	img {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		border: 2px solid $text;
+		width: 96px;
+		height: 96px;
+	}
+}
+
+#nav {
+  border-top: 1px solid $lighten-border;
+  border-bottom: 1px solid $dark;
+	margin-bottom: $line-height * 2;
+	width: 100%;
+	background: $dark-accent;
+	background: $nav-gradient-webkit;
+
+	a {
+		color: $nav-color;
+		font-weight: $link-font-weight;
+	}
+	ul {
+		@extend .unbulleted;
+		margin: $line-height/2 0;
+	}
+	li {
+		display: inline;
+		padding: 0 $line-height/2 0 0;
+	}
+}
+
+// Container for content (middle column)
+#content-container {
+  padding-right: 60px;
+}
+
+$box-border-width: 1px;
+$box-padding: $line-height / 2 - $box-border-width;
+$box-space: $box-padding + $box-border-width;
+
+.box {
+  border: $box-border-width dotted $accent;
+  background: $dark;
+  padding: $box-padding;
+}
