@@ -7,7 +7,7 @@
 }
 
 .page {
-  $small-avatar-size: $line-height * 2;
+  $small-avatar-size: $line-height;
   $small-avatar-padding-right: $line-height / 2;
   $postscript-margin-left: -1 * ($small-avatar-size + $small-avatar-padding-right + $box-space);
   
