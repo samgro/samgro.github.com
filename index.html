@@ -1,0 +1,20 @@
+---
+layout: default
+title:  Sam Grossberg
+---
+
+{% for post in site.posts %}
+  <div class='page'>
+    <div class='row' id='container'>
+      <div class='column grid_2'>
+        <div id='publish-date' class='tk-myriad-pro'>06.12.11</div>
+      </div>
+      <div class='column grid_9' id='content'>
+        <div id='content-container'>
+          <h1><a href='/${page.slug}'>{{post.title}}</a></h1>
+          {{post.content}}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
