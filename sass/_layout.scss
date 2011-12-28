@@ -150,3 +150,8 @@ $box-space: $box-padding + $box-border-width;
   background: $dark;
   padding: $box-padding;
 }
+
+.img-float-left {
+  float: left;
+  margin: 0 $line-height $line-height 0;
+}
