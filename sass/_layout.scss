@@ -155,3 +155,17 @@ $box-space: $box-padding + $box-border-width;
   float: left;
   margin: 0 $line-height $line-height 0;
 }
+
+#social-buttons {
+  padding-top: 8px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.social-button {
+  margin-bottom: $line-height / 2;
+}
+

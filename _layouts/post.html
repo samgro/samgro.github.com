@@ -35,5 +35,60 @@ layout: default
         <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
+    <div class='column grid_2' id='social-buttons'>
+      <!-- Tweet Button -->
+      <div class='social-button'>
+        <a href="https://twitter.com/share"
+          class="twitter-share-button"
+          data-related="samgrossberg" data-lang="en" data-size="medium" data-count="vertical" data-url="{{ page.url }}"></a>
+      </div>
+      
+      <!-- Plus One Button -->
+      <div class='social-button'>
+        <g:plusone size="tall"></g:plusone>
+      </div>
+      
+      <!-- Like Button -->
+      <div class='social-button' id='like-button'>
+        <div class="fb-like" data-href="{{ page.url }}" data-send="true" data-layout="box_count" data-width="54" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
+      </div>
+    </div>
   </div>
 </div>
+<script>
+(function(w, d, s) {
+  function go(){
+    var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+	  if (d.getElementById(id)) {return;}
+	  js = d.createElement(s); js.src = url; js.id = id;
+	  fjs.parentNode.insertBefore(js, fjs);
+	};
+    load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk');
+    load('https://apis.google.com/js/plusone.js', 'gplus1js');
+    load('//platform.twitter.com/widgets.js', 'tweetjs');
+  }
+  if (w.addEventListener) { w.addEventListener("load", go, false); }
+  else if (w.attachEvent) { w.attachEvent("onload",go); }
+}(window, document, 'script'));
+</script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script>
+  $(document).ready(function() {
+    // Fix social buttons on scroll down
+    var $el = $('#social-buttons');
+    var top = $el.offset().top - parseFloat($el.css('marginTop').replace(/auto/, 0));
+    $(window).scroll(function (event) {
+      // what the y position of the scroll is
+      var y = $(this).scrollTop();
+
+      // whether that's below the form
+      if (y >= top) {
+        // if so, add the fixed class
+        $el.addClass('fixed');
+      } else {
+        // otherwise remove it
+        $el.removeClass('fixed');
+      }
+    });
+  });
+</script>
