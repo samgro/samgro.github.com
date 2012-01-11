@@ -1,11 +1,3 @@
-#new-page {
-  .large-textarea {
-    box-sizing: border-box;
-    width: 100%;
-    height: 200px;
-  }
-}
-
 .page {
   $small-avatar-size: $line-height;
   $small-avatar-padding-right: $line-height / 2;
@@ -27,3 +19,15 @@
   }
 }
 
+#social-buttons {
+  padding-top: 8px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.social-button {
+  margin-bottom: $line-height / 2;
+}

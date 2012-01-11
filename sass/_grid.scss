@@ -1,0 +1,33 @@
+.column {
+	margin: 0 10px;
+	float: left;
+	display: inline;
+}
+.row {
+	width: $page-width;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+
+.top_row {
+  width: $page-width;
+  margin: 0 auto;
+}
+
+.left-column {
+  @extend .column;
+  width: 100px;
+}
+.center-column {
+  @extend .column;
+  width: 520px;
+}
+.right-column {
+  @extend .column;
+  width: 88px;
+}

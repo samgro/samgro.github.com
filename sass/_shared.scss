@@ -1,13 +1,7 @@
-ul.inline-list {
-  list-style-type: none;
-  padding: 0;
-  
-  li {
-    display: inline;
-  }
-}
-
-ul.unbulleted {
-  list-style-type: none;
-  padding: 0;
-}
+// General formatting
+@import "compass/reset";
+@import "compass/css3/box-sizing";
+@import "colors";
+@import "font_weights";
+@import "layout";
+@import "header";

@@ -1,0 +1,70 @@
+#header {
+	background: $dark;
+	padding: $line-height/2 0;
+	
+	.row {
+		position: relative;
+		overflow: none;
+	}
+	header {
+		font-size: $x-large;
+		font-weight: $link-font-weight;
+		line-height: 40px;
+	}
+	.subtitle {
+	  font-style: italic;
+	  
+	  @extend .underlined-link;
+	}
+	a,
+  a:visited {
+  	color: $header-text;
+  }
+  a:hover,
+  a:focus {
+    color: $link-color;
+  }
+}
+
+#profile {
+	position: relative;
+	height: 0px;
+	width: $page-width;
+	margin: 0px auto;
+	
+	img {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		border: 2px solid $text;
+		width: 96px;
+		height: 96px;
+	}
+}
+
+#nav {
+  border-top: 1px solid $lighten-border;
+  border-bottom: 1px solid $dark;
+	margin-bottom: $line-height * 2;
+	width: 100%;
+	background: $dark-accent;
+	background: $nav-gradient-webkit;
+
+	a {
+		color: $nav-color;
+		font-weight: $link-font-weight;
+	}
+	a:hover,
+	a:focus {
+	  color: $link-hover-color;
+	  border-bottom: 2px solid $accent;
+	}
+	ul {
+		@extend .unbulleted;
+		margin: $line-height/2 0;
+	}
+	li {
+		display: inline;
+		padding: 0 $line-height/2 0 0;
+	}
+}
