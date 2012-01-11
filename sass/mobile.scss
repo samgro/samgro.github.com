@@ -1,8 +1,15 @@
 @import "mobile_sizes";
 @import "shared";
 
+$body-padding: 0 $line-height/2;
+
 .left-column, .right-column {
   display: none;
+}
+#date-column {
+  display: block;
+  text-align: left;
+  padding: $body-padding;
 }
 .row {
   width: 100%;
@@ -10,17 +17,17 @@
 .center-column {
   width: 100%;
   margin: 0;
-  padding: 4px;
+  padding: $body-padding;
   @include box-sizing(border-box);
 }
 #profile {
   display: none;
 }
 #header {
-  padding: 0;
+  padding: $line-height/2 0;
 }
 #nav ul {
-  margin: $line-height/4 0;
+  margin: $line-height/2 0;
 }
 #nav {
   margin-bottom: $line-height;
