@@ -2,11 +2,11 @@
 .underlined-link {
   a,
   a:visited {
-    border-bottom: 1px dotted $accent;
+    border-bottom: 1px dotted $link-color;
   }
   a:hover,
   a:focus {
-    border-bottom: 2px solid $accent;
+    border-bottom: 2px solid $link-hover-color;
   }
 }
 
@@ -59,6 +59,11 @@ a:focus {
 	color: $link-color;
 }
 
+a:hover,
+a:focus {
+  color: $link-hover-color;
+}
+
 article {
   p, li {
     @extend .underlined-link;
@@ -75,6 +80,7 @@ article {
 	}
 	header {
 		font-size: $x-large;
+		font-weight: $link-font-weight;
 		line-height: 40px;
 	}
 	.subtitle {
@@ -122,7 +128,7 @@ article {
 	}
 	a:hover,
 	a:focus {
-	  color: $link-color;
+	  color: $link-hover-color;
 	  border-bottom: 2px solid $accent;
 	}
 	ul {
@@ -148,6 +154,15 @@ $box-space: $box-padding + $box-border-width;
   border: $box-border-width dotted $accent;
   background: $dark;
   padding: $box-padding;
+  
+  a,
+  a:visited {
+    color: $link-hover-color;
+  }
+  a:hover,
+  a:focus {
+    border-bottom: 2px solid $link-hover-color;
+  }
 }
 
 .img-float-left {

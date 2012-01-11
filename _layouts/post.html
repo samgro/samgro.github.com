@@ -4,10 +4,10 @@ layout: default
 
 <div class='page'>
   <div class='row' id='container'>
-    <div class='column grid_2'>
+    <div class='left-column'>
       <div id='publish-date' class='tk-myriad-pro'>{{ page.date | date: "%m.%d.%y" }}</div>
     </div>
-    <div class='column grid_9' id='content'>
+    <div class='center-column' id='content'>
       <div id='content-container'>
         <article>
           <h1>{{ page.title }}</h1>
@@ -35,7 +35,7 @@ layout: default
         <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
-    <div class='column grid_2' id='social-buttons'>
+    <div class='right-column' id='social-buttons'>
       <!-- Tweet Button -->
       <div class='social-button'>
         <a href="https://twitter.com/share"

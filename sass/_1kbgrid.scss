@@ -1,7 +1,7 @@
 /* ================ */
 /* = The 1Kb Grid = */     /* 16 columns, 40 pixels each, with 20 pixel gutter */
 /* ================ */
-$page-width: 780px;
+$page-width: 768px;
 
 .grid_1 { width:40px; }
 .grid_2 { width:100px; }
@@ -39,4 +39,17 @@ $page-width: 780px;
 .top_row {
   width: $page-width;
   margin: 0 auto;
+}
+
+.left-column {
+  @extend .column;
+  width: 100px;
+}
+.center-column {
+  @extend .column;
+  width: 520px;
+}
+.right-column {
+  @extend .column;
+  width: 88px;
 }
