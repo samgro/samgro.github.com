@@ -1,5 +1,6 @@
+$column-margin: 10px;
 .column {
-	margin: 0 10px;
+	margin: 0 $column-margin;
 	float: left;
 	display: inline;
 }
@@ -9,7 +10,7 @@
 	overflow: hidden;
 }
 .row .row {
-	margin: 0 -10px;
+	margin: 0 -1*$column-margin;
 	width: auto;
 	display: inline-block;
 }
@@ -18,14 +19,15 @@
   width: $page-width;
   margin: 0 auto;
 }
-
+$left-column-width: 100px;
 .left-column {
   @extend .column;
-  width: 100px;
+  width: $left-column-width;
 }
 .center-column {
   @extend .column;
-  width: 520px;
+  width: 460px;
+  padding-right: 60px;
 }
 .right-column {
   @extend .column;

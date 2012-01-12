@@ -1,0 +1,22 @@
+#index {
+  .date {
+    font-weight: 300;
+  }
+  .left-column {
+    text-align: right;
+  }
+  #bio {
+    margin: 0 -1*$column-margin $line-height -1*$column-margin;
+  }
+  .post-title {
+    margin-bottom: 4px;
+    
+    a:hover,
+    a:focus {
+      border-bottom: 2px solid $link-hover-color;
+    }
+  }
+  #contents {
+    margin-bottom: $line-height;
+  }
+}

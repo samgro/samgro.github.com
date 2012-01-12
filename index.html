@@ -2,21 +2,39 @@
 layout: default
 title:  Sam Grossberg
 ---
-
-{% for post in site.posts %}
-  <div class='page'>
-    <div class='row' id='container'>
-      <div class='column grid_2'>
-        <div id='publish-date' class='tk-myriad-pro'>{{ post.date | date: "%m.%d.%y" }}</div>
-      </div>
-      <div class='column grid_9' id='content'>
-        <div id='content-container'>
-          <article>
-            <h1><a href='{{ post.url }}'>{{ post.title }}</a></h1>
-            {{ post.content }}
-          </article>
+<div id='index'>
+  <div class='row'>
+    <div class='left-column'>&nbsp;</div>
+    <div class='center-column'>
+      <h1>My Blog Posts</h1>
+    </div>
+  </div>
+   
+  <div id='contents'>
+    {% for post in site.posts %}
+      <div class='row'>
+        <div id='article-list' class='tk-myriad-pro'>
+          <div class='left-column'>
+            <span class='date'>{{ post.date | date: "%m.%d.%y" }}</span>
+          </div>
+          <div class='center-column'>
+            <div class='post-title'>
+              <a href='{{ post.url }}'>
+                <strong>{{ post.title }}</strong>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class='row'>
+    <div class='left-column'>&nbsp;</div>
+    <div class='center-column'>
+      <div class='box' id='bio'>
+        I am a software engineer living in San Francisco. Read my <a href='/about.html'>self-indulgent bio</a> to learn more about me, or peruse my collection of blog posts below. If you like what you read, you should probably <a href='http://twitter.com/samgrossberg' target='_blank'>follow me on Twitter!</a>
       </div>
     </div>
   </div>
-{% endfor %}
+</div>

@@ -1,6 +1,7 @@
 #header {
 	background: $header-bg-color;
 	padding: $line-height/2 0;
+	font-weight: $header-font-weight;
 	
 	.row {
 		position: relative;
@@ -8,7 +9,6 @@
 	}
 	header {
 		font-size: $xx-large;
-		font-weight: $link-font-weight;
 		line-height: 40px;
 	}
 	.subtitle {
@@ -17,6 +17,7 @@
 	}
 	a,
   a:visited {
+    font-weight: $header-font-weight;
   	color: $header-text;
   }
   a:hover,
