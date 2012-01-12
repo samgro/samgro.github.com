@@ -52,6 +52,9 @@ ol,
 ul {
   list-style-type: disc;
 }
+ol {
+  list-style-type: decimal;
+}
 em {
   font-style: italic;
 }
@@ -66,7 +69,7 @@ ul.inline-list {
     display: inline;
   }
 }
-ul.unbulleted {
+.unbulleted {
   list-style-type: none;
   padding: 0;
 }

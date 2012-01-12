@@ -10,7 +10,7 @@ title:  Sam Grossberg
     </div>
   </div>
    
-  <div id='contents'>
+  <ul id='contents'>
     {% for post in site.posts %}
       <div class='row'>
         <div id='article-list' class='tk-myriad-pro'>
@@ -18,16 +18,16 @@ title:  Sam Grossberg
             <span class='date'>{{ post.date | date: "%m.%d.%y" }}</span>
           </div>
           <div class='center-column'>
-            <div class='post-title'>
+            <li class='post-title'>
               <a href='{{ post.url }}'>
                 <strong>{{ post.title }}</strong>
               </a>
-            </div>
+            </li>
           </div>
         </div>
       </div>
     {% endfor %}
-  </div>
+  </ul>
   
   <div class='row'>
     <div class='left-column'>&nbsp;</div>
