@@ -1,5 +1,5 @@
 #header {
-	background: $dark;
+	background: $header-bg-color;
 	padding: $line-height/2 0;
 	
 	.row {
@@ -7,14 +7,13 @@
 		overflow: none;
 	}
 	header {
-		font-size: $x-large;
+		font-size: $xx-large;
 		font-weight: $link-font-weight;
 		line-height: 40px;
 	}
 	.subtitle {
-	  font-style: italic;
-	  
-	  @extend .underlined-link;
+	  color: $subtitle-color;
+	  font-size: $subtitle-height;
 	}
 	a,
   a:visited {
@@ -22,7 +21,7 @@
   }
   a:hover,
   a:focus {
-    color: $link-color;
+    color: $link-hover-color;
   }
 }
 
@@ -44,7 +43,7 @@
 
 #nav {
   border-top: 1px solid $lighten-border;
-  border-bottom: 1px solid $dark;
+  border-bottom: 1px solid $nav-border-bottom-color;
 	margin-bottom: $line-height * 2;
 	width: 100%;
 	background: $dark-accent;

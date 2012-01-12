@@ -18,6 +18,7 @@ body {
   background: $background;
   color: $text;
   font-weight: 300;
+  -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3 {
   color: $header-text;
@@ -75,6 +76,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	color: $link-color;
+	font-weight: normal;
 }
 a:hover,
 a:focus {
@@ -92,17 +94,20 @@ $box-padding: $line-height / 2 - $box-border-width;
 $box-space: $box-padding + $box-border-width;
 
 .box {
-  border: $box-border-width dotted $accent;
-  background: $dark;
+  background: $box-bg-color;
+  color: $box-text-color;
   padding: $box-padding;
+  @extend .rounded5;
   
   a,
   a:visited {
-    color: $link-hover-color;
+    font-weight: $header-font-weight;
+    color: $box-link-color;
+    border-bottom: 1px dotted $box-link-color;
   }
   a:hover,
   a:focus {
-    border-bottom: 2px solid $link-hover-color;
+    border-bottom: 2px solid $box-link-color;
   }
 }
 
