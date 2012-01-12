@@ -1,12 +1,15 @@
 /* Layout */
+$link-underline-style: solid;
+$link-hover-underline-style: solid;
+
 .underlined-link {
   a,
   a:visited {
-    border-bottom: 1px dotted $link-color;
+    border-bottom: 1px $link-underline-style $link-underline-color;
   }
   a:hover,
   a:focus {
-    border-bottom: 2px solid $link-hover-color;
+    border-bottom: 2px $link-hover-underline-style $link-hover-color;
   }
 }
 body, textarea {
@@ -106,11 +109,11 @@ $box-space: $box-padding + $box-border-width;
   a:visited {
     font-weight: $header-font-weight;
     color: $box-link-color;
-    border-bottom: 1px dotted $box-link-color;
+    border-bottom: 1px $link-underline-style $box-link-color;
   }
   a:hover,
   a:focus {
-    border-bottom: 2px solid $box-link-color;
+    border-bottom: 2px $link-hover-underline-style $box-link-color;
   }
 }
 
