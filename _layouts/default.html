@@ -5,6 +5,7 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="author" content="Sam Grossberg" />
+  <meta name="description" content="The weblog and home page of Sam Grossberg, developer at GoPollGo. Discussing programming topics, outdoor recreation, and musing on life." >
   <link rel="stylesheet" media="screen and (min-device-width: 481px)" href="/stylesheets/screen.css" />
   <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="/stylesheets/mobile.css">
   <script type="text/javascript" src="http://use.typekit.com/dwi8ggm.js"></script>
@@ -31,19 +32,20 @@
 
 <body>
   <div id='wrapper'>
-    <div id='profile'>
-      <img alt='Sam Grossberg' src='/images/sam-grossberg.jpg' />
-    </div>
-  
-    <div id='header' class='tk-myriad-pro'>
+    <div id='header' class='tk-myriad-pro' itemscope itemtype="http://data-vocabulary.org/Person">
+      <div id='profile'>
+        <img alt='Sam Grossberg' src='/images/sam-grossberg.jpg' itemprop='photo' />
+      </div>
       <div class='row'>
         <div class='left-column'>
           &nbsp;
         </div>
     
-        <div class='center-column'>
-          <header><a href='/'>Sam Grossberg</a></header>
-          <div class='subtitle'>Dev at <a href='http://gopollgo.com/'>GoPollGo</a>. Skier, climber, geek.</div>
+        <div class='center-column'>            
+          <header itemprop='name'><a href='/' itemprop="url">Sam Grossberg</a></header>
+          <div class='subtitle'>
+            <span itemprop="title">Dev</span> at <a href='http://gopollgo.com/' itemprop='affiliation'>GoPollGo</a>. Skier, climber, geek.
+          </div>
         </div>
       </div>
     </div>
