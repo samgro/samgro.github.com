@@ -5,3 +5,8 @@
 // Pages
 @import "index.screen";
 @import "pages";
+@import "footer";
+
+#bio {
+  margin: 0 -1*$column-margin $line-height -1*$column-margin;
+}

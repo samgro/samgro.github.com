@@ -14,40 +14,68 @@
   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
   <![endif]-->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27958874-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </head>
 
 <body>
-  <div id='profile'>
-    <img alt='Sam Grossberg' src='/images/sam-grossberg.jpg' />
-  </div>
+  <div id='wrapper'>
+    <div id='profile'>
+      <img alt='Sam Grossberg' src='/images/sam-grossberg.jpg' />
+    </div>
   
-  <div id='header' class='tk-myriad-pro'>
-    <div class='row'>      
-      <div class='left-column'>
-        &nbsp;
-      </div>
+    <div id='header' class='tk-myriad-pro'>
+      <div class='row'>
+        <div class='left-column'>
+          &nbsp;
+        </div>
     
-      <div class='center-column'>
-        <header><a href='/'>Sam Grossberg</a></header>
-        <div class='subtitle'>Dev at <a href='http://gopollgo.com/'>GoPollGo</a>. Skier, climber, geek.</div>
+        <div class='center-column'>
+          <header><a href='/'>Sam Grossberg</a></header>
+          <div class='subtitle'>Dev at <a href='http://gopollgo.com/'>GoPollGo</a>. Skier, climber, geek.</div>
+        </div>
       </div>
     </div>
+  
+    <div id='nav'>
+      <div class='row'>
+        <div class='left-column'>&nbsp;</div>
+        <div class='center-column'>
+          <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/about.html'>About</a></li>
+            <li><a href='/projects.html'>Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    {{ content }}
+    
+    <div id='push'></div>
   </div>
   
-  <div id='nav'>
+  <div id='footer'>
     <div class='row'>
       <div class='left-column'>&nbsp;</div>
       <div class='center-column'>
-        <ul>
-          <li><a href='/'>Home</a></li>
-          <li><a href='/about.html'>About</a></li>
-          <li><a href='/projects.html'>Projects</a></li>
-        </ul>
+        Email <a href='mailto:&#115;&#097;&#109;&#046;&#103;&#114;&#111;&#115;&#115;&#098;&#101;&#114;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'>&#115;&#097;&#109;&#046;&#103;&#114;&#111;&#115;&#115;&#098;&#101;&#114;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+        | Fork <a href='http://www.github.com/samgro'>samgro</a>
+        | Follow <a href='http://twitter.com/samgrossberg'>@samgrossberg</a>
       </div>
     </div>
   </div>
-  
-  {{ content }}
   
 </body>
 </html>
