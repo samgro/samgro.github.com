@@ -121,3 +121,9 @@ $box-space: $box-padding + $box-border-width;
   float: left;
   margin: 0 $line-height $line-height 0;
 }
+
+a.image-link {
+  &, &:visited, &:hover, &:focus {
+    border: 0;
+  }
+}
