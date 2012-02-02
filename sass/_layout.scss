@@ -9,7 +9,8 @@ $link-hover-underline-style: solid;
   }
   a:hover,
   a:focus {
-    border-bottom: 2px $link-hover-underline-style $link-hover-color;
+    background: $link-hover-bg-color;
+    color: $link-color;
   }
 }
 body, textarea {
