@@ -57,5 +57,6 @@ There are a few quirks I'd love to see Clear fix in the next release:
 * For quick add, swiping down to add an item above works great, but swiping up should add the new item below.
 * Once you fill the screen, there's nowhere to tap to add an item to the bottom of the list. They should just add a black dummy row here.
 * Sometimes when I try to move up the list hierarchy with a fast swipe, I end up creating a new item (small swipe). They might just need to tweak the velocity boundary between these two gestures.
+* There is no undo. You should be able to shake to undo.
 
 I hope the Clear gestures become conventional for list editing. Clear raised the bar for all mobile apps, not just checklists. Every mobile designer should be thinking - how can I remove features, remove buttons, and take advantage of the unique properties of a handheld device? How can I take the mundane and make it simple, elegant, beautiful?
