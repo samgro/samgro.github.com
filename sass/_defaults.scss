@@ -66,6 +66,10 @@ ul.inline-list {
 .unbulleted {
   list-style-type: none;
   padding: 0;
+
+  li {
+    margin-left: 0;
+  }
 }
 a,
 a:visited,
