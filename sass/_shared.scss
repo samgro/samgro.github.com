@@ -1,7 +1,12 @@
-// General formatting
+// Infrastrucure
 @import "compass/reset";
 @import "css3";
 @import "colors";
 @import "font_weights";
+
+// Sitewide
+@import "defaults";
 @import "layout";
+
+// Components
 @import "header";

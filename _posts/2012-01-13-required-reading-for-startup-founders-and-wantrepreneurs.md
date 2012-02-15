@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Required Reading for Startup Founders and Wantrepreneurs
-published: false
 ---
 
-A year ago last week, I quit Microsoft to found a startup called Outdrsy. About 6 months ago, after failing to recruit a cofounder or develop a market for my product, I decided to join <a href='http://gopollgo.com/' target='_blank'>GoPollGo</a> as employee #1 after Ben (the founder) had raised <a href='http://techcrunch.com/2011/07/27/polling-startup-gopollgo-redesigns-with-realtime-analytics/' target='_blank'>some seed funding</a>. Since becoming a startup founder/employee, I regularly get asked by friends for advice about startup ideas. Although I happily offer my strong, mostly unqualified opinions on any subject, I still consider myself a wantrepreneur. So before listening to me, I recommend reading a few selections that I wish I had read before starting a company. Then, bookmark this list and forward it to your friends when they start asking you for advice.
+A year ago today, I quit Microsoft to found a startup called Outdrsy. About 6 months ago, after failing to recruit a cofounder or develop a market for my product, I decided to join <a href='http://gopollgo.com/' target='_blank'>GoPollGo</a> as employee #1 after Ben (the founder) had raised <a href='http://techcrunch.com/2011/07/27/polling-startup-gopollgo-redesigns-with-realtime-analytics/' target='_blank'>some seed funding</a>. Since becoming a startup founder/employee, I regularly get asked by friends for advice about startup ideas. Although I happily offer my strong, mostly unqualified opinions on any subject, I still consider myself a wantrepreneur. So before listening to me, I recommend reading a few selections that I wish I had read before starting a company. Then, bookmark this list and forward it to your friends when they start asking you for advice.
 
 ## Books
 <ul class='long'>
