@@ -5,7 +5,11 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="author" content="Sam Grossberg" />
-  <meta name="description" content="The weblog and home page of Sam Grossberg, developer at GoPollGo. Discussing programming topics, outdoor recreation, and musing on life." >
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% else %}
+    <meta name="description" content="The weblog and home page of Sam Grossberg, developer at GoPollGo. Discussing programming topics, outdoor recreation, and musing on life." />
+  {% endif %}
   <link rel="stylesheet" media="screen and (min-device-width: 481px)" href="/stylesheets/screen.css" />
   <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="/stylesheets/mobile.css">
   <script type="text/javascript" src="http://use.typekit.com/dwi8ggm.js"></script>

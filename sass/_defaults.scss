@@ -28,7 +28,7 @@ h1 {
 	}
 }
 h2 {
-  $top-margin: 9px;
+  $top-margin: 8px;
   font-size: $large;
   padding: $top-margin 0 $line-height - $top-margin 0;
 }
@@ -93,4 +93,11 @@ article {
   float: left;
   margin-right: $line-height;
   margin-bottom: $line-height;
+}
+.gist {
+  font-size: 12px;
+}
+code, pre {
+  font-family: 'Bitstream Vera Sans Mono', Monaco, Courier, monospace;
+  font-size: 12px;
 }
