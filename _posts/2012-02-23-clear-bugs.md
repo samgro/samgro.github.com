@@ -3,6 +3,8 @@ layout: post
 title: Clear, can you fix these?
 description: A few bugs I'd like to see fixed in Clear.
 ---
+<img src='/images/clear-image.png' alt='Clear lists' width='144' height='140' class='left' />
+
 Boy do I love the Clear app. I've been using it everyday to keep track of my todos and groceries. As I mentioned in <a href='/clear-checklist-app-just-raised-the-bar-for-mobile-design/'>my last post about Clear</a>, there are a few issues I'd like to see fixed in the next version. After a week of heavy use, here are the biggest issues, in order of severity:
 
 * I am constantly tapping edit on the middle level instead of tapping to drill down. I rarely change the name of a list; I should have to double tap to edit here. A single tap anywhere on the item should drill down.
