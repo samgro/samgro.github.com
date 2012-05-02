@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6 reasons to use Tweetbot instead of Twitter
+title: 6 reasons to use Tweetbot instead of the official Twitter app
 description: Tweetbot is a great iPhone Twitter app for power users. Here are 8 reasons why you should switch to Tweetbot if you haven't already.
 ---
 Tweetbot is a great iPhone Twitter app for power users. Here are 6 reasons why you should switch to Tweetbot if you haven't already.
