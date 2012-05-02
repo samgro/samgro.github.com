@@ -92,8 +92,17 @@ article {
 }
 .left {
   float: left;
-  margin-right: $line-height;
-  margin-bottom: $line-height;
+  margin: $line-height/2 $line-height/2 $line-height/2 0;
+}
+.right {
+  float: right;
+  margin: $line-height/2  0 $line-height/2 $line-height/2;
+}
+.center-block {
+  margin: 0 auto $line-height auto;
+}
+.clear {
+  clear: both;
 }
 .gist {
   font-size: 12px;
