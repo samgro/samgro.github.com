@@ -89,6 +89,12 @@ article {
   p, li {
     @extend .underlined-link;
   }
+  blockquote {
+    $blockquote-border: 2px;
+    font-style: italic;
+    border-left: $blockquote-border solid $text;
+    padding-left: $line-height - $blockquote-border;
+  }
 }
 .left {
   float: left;

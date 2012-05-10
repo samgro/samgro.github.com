@@ -32,3 +32,5 @@ Somehow most of the web still is not optimized for mobile. Pages are unreadable 
 <div class='clear'></div>
 
 What awesome Tweetbot features am I leaving out? Comment below with your favorite Tweetbot features and easter eggs!
+
+Follow up: <a href='/twitter-tweetbot-ipad/'>Why Twitter > Tweetbot for iPad</a>
