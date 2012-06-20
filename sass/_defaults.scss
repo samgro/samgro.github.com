@@ -117,3 +117,11 @@ code, pre {
   font-family: 'Bitstream Vera Sans Mono', Monaco, Courier, monospace;
   font-size: 12px;
 }
+code {
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: $link-color;
+  background-color: lighten($light-black, 10%);
+  border: 1px solid rgba(255,255,255,0.2);
+  @include border-radius(3px);
+}
