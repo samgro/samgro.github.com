@@ -13,7 +13,7 @@ In the Twitter app, on the other hand, opening a conversation or link fades and 
 
 Overall, the official Twitter app provides a beautiful iPad optimized experience. Save the $2.99 and buy yourself a PBR.
 
-<p><a href='/images/tweetbot/twitter-tweetbot-ipad.png'><img alt='Twitter/Tweetbot screenshots' src='/images/tweetbot/twitter-tweetbot-ipad-thumb.jpg' width='460' height='307' /></a></p>
+<p><a href='/images/tweetbot/twitter-tweetbot-ipad.png' class='image-link'><img alt='Twitter/Tweetbot screenshots' src='/images/tweetbot/twitter-tweetbot-ipad-thumb.jpg' width='460' height='307' /></a></p>
 
 *Left: Twitter. Right: Tweetbot.*
 
