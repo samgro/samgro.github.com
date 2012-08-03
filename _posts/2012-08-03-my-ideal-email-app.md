@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'My ideal email app'
+description: 'Why I switched from gmail to facebook.com as my primary email address.'
 ---
 A lot of people complain loudly about disliking email. I'm one of those people. Email is overloaded - it's a personal communication app, a to-do list, a central notification center, and a coupon/brochure repository. Unfortunately, it's bad at all of those things. It's easy for me to opt out of everything but the first one - I use [Clear](/clear-checklist-app-just-raised-the-bar-for-mobile-design) for my to-do lists, iPhone Notification Center for notifications, and I opt-out of the whole coupon/brochure thing ([SaneBox](http://www.sanebox.com/) helps). For a personal communication center, I have long preferred Twitter DM (until it stopped working) and Facebook Messages. The only problem is I can't force all of my friends to use these.
 
