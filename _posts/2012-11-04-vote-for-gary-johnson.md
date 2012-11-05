@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'A Personal Plea to Vote for Gary Johnson'
-description: ''
+description: 'As your token gay friend, I ask you to take a few minutes to learn more about how much this election means to the LGBT community. Please read my blog post before voting tomorrow and take into consideration the rights of discriminated minorities.'
 ---
 *"Some gays are actually having children born to them. It's not right on paper. It's not right in fact. Every child has a right to a mother and father."* -[Mitt Romney, 2005](http://bostonglobe.com/news/politics/2012/10/24/mitt-romney-overruled-state-agency-and-rejected-new-birth-certificates-for-children-born-gay-parents/TqOHBb99V98H6nGQqUQrjO/story.html)
 
