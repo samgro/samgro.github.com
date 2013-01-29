@@ -5,11 +5,10 @@
   .left-column {
     text-align: right;
   }
-  .post-title {
-    padding-bottom: 4px;
-  }
-  #contents {
+  .contents {
     margin-bottom: $line-height;
-    @extend .unbulleted;
+  }
+  li {
+    margin-left: $line-height;
   }
 }

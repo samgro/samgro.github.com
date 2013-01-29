@@ -1,9 +1,10 @@
 #index {
-  .post-title {
-    padding-bottom: $line-height/2;
-    margin-left: $line-height;
-  }
-  #contents {
+  .contents {
     margin-bottom: $line-height;
+    
+    li {
+      margin-left: $line-height;
+      padding-bottom: $line-height/2;
+    }
   }
 }

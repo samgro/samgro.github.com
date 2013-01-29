@@ -6,35 +6,29 @@ title:  Sam Grossberg
   <div class='row'>
     <div class='left-column'>&nbsp;</div>
     <div class='center-column'>
-      <h1>My Blog Posts</h1>
-    </div>
-  </div>
-   
-  <ul id='contents'>
-    {% for post in site.posts %}
-      <div class='row'>
-        <div id='article-list' class='tk-myriad-pro'>
-          <div class='left-column'>
-            <span class='date'>{{ post.date | date: "%m.%d.%y" }}</span>
-          </div>
-          <div class='center-column'>
-            <li class='post-title'>
-              <a href='{{ post.url }}'>
-                <strong>{{ post.title }}</strong>
-              </a>
-            </li>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </ul>
-  
-  <div class='row'>
-    <div class='left-column'>&nbsp;</div>
-    <div class='center-column'>
-      <div class='box' id='bio'>
-        I am a software engineer living in San Francisco. Read my <a href='/about.html'>self-indulgent bio</a> to learn more about me, or peruse my collection of blog posts above. If you like what you read, you should probably <a href='http://twitter.com/samgrossberg' target='_blank'>follow me on Twitter!</a>
-      </div>
+      <p>I am a software engineer living in San Francisco. I love geeking out about engineering, design and the great outdoors. Check out a few of my blog posts below.
+      <h1>Engineering</h1>
+      <ul class='contents'>
+        <li><a href='/10-html-tips-for-making-your-website-shine-on-the-iphone'>10 HTML Tips for Making your Website Shine on the iPhone</a></li>
+        <li><a href='/how-gopollgo-uses-mongodb-for-real-time-analytics'>How GoPollGo Uses MongoDB for Real-Time Analytics</a></li>
+      </ul>
+      
+      <h1>Design</h1>
+      
+      <ul class='contents'>
+        <li><a href='/blog-design-101'>Blog Design 101</a></li>
+        <li><a href='/my-ideal-email-app'>My Ideal Email App</a></li>
+        <li><a href='/twitter-tweetbot-ipad'>Twitter > Tweetbot for iPad</a></li>
+        <li><a href='/6-reasons-to-use-tweetbot-instead-of-twitter'>6 Reasons to Use Tweetbot Instead of Twitter</a></li>
+        <li><a href='/clear-checklist-app-just-raised-the-bar-for-mobile-design'>Clear, a Checklist app, Just Raised the Bar</a></li>
+      </ul>
+      
+      <h1>Startups</h1>
+      <ul class='contents'>
+        <li><a href='/1-week-in-startup-life'>A Week in Startup Life</a></li>
+        <li><a href='/required-reading-for-startup-founders-and-wantrepreneurs'>Required Reading for Startup Founders and Wantrepreneurs</a></li>
+        <li><a href='/for-the-sake-of-your-personal-sanity-dont-mis'>For the Sake of your Sanity, Don't Mispell your company!</a></li>
+      </ul>
     </div>
   </div>
 </div>
