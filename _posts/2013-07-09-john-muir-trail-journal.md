@@ -27,4 +27,6 @@ About 5 miles in, we met a party of 3 fellow JMT hikers who were convinced that 
 Exhausted from sleep deprivation, driving, and hiking, we stumbled into our campsite at Lake Virginia at 8:08pm, just in time for a beautiful sunset and stargazing over my favorite campsite of the whole trip.
 
 ## Day 2: Lake Virginia to Bear Creek (19 miles)
-After a very long first 36 hours, we let ourselves sleep in until around 8am to start Day 2.
+After a very long first 36 hours, we let ourselves sleep in until around 8am to start Day 2. While heading up around Lake Virginia, 2 PCT hikers asked me if I was White Lightning (maybe because I was wearing a white shirt and hat). Apparently Ragin' Cajun and Pins wanted to send White Lightning a message that they were up ahead.
+
+Day 2 was the toughest day for me, mentally. We had planned to cover 21 miles 
