@@ -1,32 +1,17 @@
-$text: #d2e4d2;
-$header-text: #fffff7;
-$nav-gradient-webkit: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7D877D), to(#606860));
-$dark-accent: #606860;
-$link-color: $header-text;
-$nav-color: #CFCABE;
+$text: #333;
+$background: white;
+$header-text: #777;
+$accent: #eb593c;
+$nav-background: $accent;
+$nav-text: white;
+
+// Links
+$link-color: $accent;
+$link-hover-bg-color: $background;
+$link-hover-color: #b85;
+$link-underline-color: $link-color;
+
 $lighten-border: rgba(255, 255, 255, 0.3);
-
-$dark-green: #4A5E47;
-  $link-hover-bg-color:       $dark-green;
-
-$medium-green: #9ABE97;
-  $link-hover-color:          $medium-green;
-  $box-bg-color:              $medium-green;
-
-$dark-black: #2F2926;
-  $header-bg-color:           $dark-black;
-  $box-text-color:            $dark-black;
-  $nav-border-bottom-color:   $dark-black;
-
-$light-black: #343537;
-  $background:                $light-black;
-
-$orange: #AA5638;
-  $box-link-color:            $orange;
-
-$accent: #999;
-  $subtitle-color:            $accent;
-  $link-underline-color:      $accent;
 
 $link-underline-style: solid;
 $link-hover-underline-style: solid;

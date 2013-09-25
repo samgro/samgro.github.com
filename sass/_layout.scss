@@ -16,23 +16,23 @@ $box-border-width: 1px;
 $box-padding: $line-height / 2 - $box-border-width;
 $box-space: $box-padding + $box-border-width;
 
-.box {
-  background: $box-bg-color;
-  color: $box-text-color;
-  padding: $box-padding;
-  @extend .rounded5;
-  
-  a,
-  a:visited {
-    font-weight: $header-font-weight;
-    color: $box-link-color;
-    border-bottom: 1px $link-underline-style $box-link-color;
-  }
-  a:hover,
-  a:focus {
-    border-bottom: 2px $link-hover-underline-style $box-link-color;
-  }
-}
+// TODO .box {
+//  background: $box-bg-color;
+//  color: $box-text-color;
+//  padding: $box-padding;
+//  @extend .rounded5;
+//  
+//  a,
+//  a:visited {
+//    font-weight: $header-font-weight;
+//    color: $box-link-color;
+//    border-bottom: 1px $link-underline-style $box-link-color;
+//  }
+//  a:hover,
+//  a:focus {
+//    border-bottom: 2px $link-hover-underline-style $box-link-color;
+//  }
+//}
 
 .img-float-left {
   float: left;

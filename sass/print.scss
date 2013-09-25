@@ -1,0 +1,52 @@
+@import "compass/reset";
+
+$baseline: 24px;
+$normal-font-size: 16px;
+$small-font-size: 12px;
+
+/* Print styles */
+body {
+  line-height: $baseline;
+  font-family: Helvetica, sans-serif;
+  font-size: $normal-font-size;
+  margin: $baseline auto;
+  max-width: 600px;
+}
+section {
+  padding: $baseline 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+h2 {
+  text-transform: uppercase;
+}
+header {
+  text-align: center;
+}
+.contact {
+  font-size: $small-font-size;
+//  padding-left: $baseline;
+  
+  li {
+    display: inline;
+    &:after {
+      content: ' · ';
+    }
+    &:last-child:after {
+      content: '';
+    }
+  }
+}
+.company {
+  font-weight: bold;
+  &:after {
+    content: ', ';
+  }
+}
+.item {
+  padding-left: $baseline;
+}
