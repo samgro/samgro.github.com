@@ -7,6 +7,27 @@
   <meta name="author" content="Sam Grossberg" />
   <meta name="description" content="I work on iOS Engineering at Foursquare. Previously I helped build Flickr 3.0 for iOS, GoPollGo, and Windows Live.">
   <style type="text/css">
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    
     body {
       margin: 30px auto;
       padding: 0 15px;
@@ -22,6 +43,7 @@
       font-weight: bold;
       font-family: Palatino, Georgia, serif;
       line-height: 96px;
+      text-align: center;
     }
     p {
       font-size: 16px;
@@ -38,19 +60,26 @@
     }
 
     img.avatar {
-      background-size: 100%;
+      margin: auto;
       display: block;
-      overflow: hidden;
-      border-radius: 100px;
-      -moz-border-radius: 100px;
-      -webkit-border-radius: 100px;
-      margin-top: 2px;
-      margin-right: 15px;
+      border: 0;
+      border-radius: 48px;
+      -moz-border-radius: 48px;
+      -webkit-border-radius: 48px;
     }
 
     @media screen and (max-width: 500px) {
       body {
         width: auto;
+      }
+      img.avatar {
+        margin: auto;
+        float: none;
+        display: block;
+      }
+      h1 {
+        font-size: 36px;
+        line-height: 72px;
       }
     }
   </style>
@@ -67,8 +96,8 @@
 </head>
 
 <body>
-  
-  <h1><a href="https://www.flickr.com/photos/samgrossberg/9445004775/in/album-72157634943578187/"><img src="pancake.jpg" class="avatar" height="96" width="96" align="left"></a>Sam Grossberg</h1>
+  <div><a href="https://www.flickr.com/photos/samgrossberg/9445004775/in/album-72157634943578187/"><img src="pancake.jpg" class="avatar" height="96" width="96"></a></div>
+  <h1>Sam Grossberg</h1>
 
   <p>I work on iOS Engineering at <a href="https://foursquare.com/">Foursquare</a>. Previously I helped build <a href="http://blog.flickr.net/en/2014/04/17/introducing-flickr-3-0-for-iphone-and-android/">Flickr 3.0 for iOS</a>, <a href="http://techcrunch.com/2013/05/09/yahoo-acquires-gopollgo-a-maker-of-analytics-and-social-feedback-site-shuts-down/">GoPollGo</a>, and Windows Live, an ancient predecessor of <a href="http://windows.microsoft.com/en-us/windows/essentials">Windows Essentials</a>.</p>
 
